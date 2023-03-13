@@ -14,6 +14,16 @@ const initialValues = {
   number: '',
 };
 
+//  const handleSubmit = (values, actions) => {
+//     const { name, number } = values;
+//     const newContact = { name, number };
+//     const updatedContacts = [...contacts, newContact];
+//     setContacts(updatedContacts);
+//     localStorage.setItem('contacts', JSON.stringify(updatedContacts));
+//     onSubmitForm(name, number);
+//     actions.resetForm();
+//   };
+
 export const ContactForm = ({ onSubmitForm }) => {
   return (
     <Formik
